@@ -23,6 +23,7 @@ dependencies:
   - seaborn
   - scikit-learn=0.22
   - matplotlib
+  - nbgitpuller
   - nbserverproxy
   - nomkl
   - h5py
