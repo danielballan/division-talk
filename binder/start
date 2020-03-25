@@ -2,6 +2,6 @@
 
 if [[ -v SINGULARITY_USER ]]; then
     exec env USER=$SINGULARITY_USER env HOME=~$SINGULARITY_USER "$@"
-else:
+else
     exec "$@"
 fi
